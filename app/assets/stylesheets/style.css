@@ -1,0 +1,33 @@
+body{
+  background-color: #ece3a2;
+  background-image:url("http://img03.deviantart.net/5088/i/2013/171/5/5/the_back_of_the_marauders_map_by_littlefallingstar-d69tz1k.jpg");
+  font-family: 'IM Fell DW Pica SC', serif;
+}
+input, span{
+  background-color:transparent !important;
+  border:none !important;
+}
+
+.flip{
+  -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+.input-group{
+  margin-top:50%;
+  padding:7% 10% 7% 10%;
+  background-size: 100%;
+  background-image:url("http://www.clipartkid.com/images/672/western-scroll-banner-clip-art-clipart-panda-free-clipart-images-qy5VrQ-clipart.png");
+  background-repeat: no-repeat;
+  
+  
+}
+.hidden{
+  visibility: hidden;
+}
+#swear{
+  margin:15%;
+}

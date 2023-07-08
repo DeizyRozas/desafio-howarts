@@ -1,0 +1,35 @@
+<div class="container">
+	<div class="row">
+		<div class="col-3">
+			<img src="https://s-media-cache-ak0.pinimg.com/originals/38/75/40/387540fd39e8c1a3e744860f395158a2.jpg" alt="footprints" class="img-responsive pull-right flip" />
+		</div>
+		<div class="col-5">
+			<img id="swear" src="https://static.tumblr.com/3127e6c449c27a505c6ed0688bdb1ebc/pyepdpd/gwGns9500/tumblr_static_5uvtkcdzb1ssk4sko4cws08cc.png" alt="I solemnly swear I am up to no good" class="img-responsive center-block" />
+			<table class="table table-light">
+				<h2>Personajes</h2>
+				<thead>
+					<tr>
+					<th scope="col">ID</th>
+					<th scope="col">Nombre</th>
+					<th scope="col">Ubicación</th>
+					<th scope="col">Casa</th>
+					</tr>
+				</thead>
+				<tbody>
+					<% @characters.each do |character| %>
+						<tr>
+							<td><%= character.id %></td>
+                            <td><%= character.name %></td>
+                            <td><%= character.location %></td>
+                            <td><%= character.house %></td>
+						</tr>
+					<% end %>
+				
+				</tbody>
+			</table>
+		</div>
+		<div class="col-3">
+			<img src="https://1.bp.blogspot.com/-G8DACAf4UgU/VGWW8hbENDI/AAAAAAAAUwc/mwrCBviTw_E/s1600/art_footsteps-bc2260149b6b3d315fb59c14a498381d.png" alt="footprints" class="img-responsive" />
+		</div>
+	</div>
+</div>
